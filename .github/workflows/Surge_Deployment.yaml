@@ -37,6 +37,6 @@ jobs:
       
       
     - name: Deploy to Surge
-      run: surge ./build proj-class03.surge.sh ${{secrets.Surge_Token}}
+      run: surge ./build proj-class03.surge.sh --token ${{secrets.Surge_Token}}
       
       
